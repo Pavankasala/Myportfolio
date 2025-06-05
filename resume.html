@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Resume - Pavan Kasala</title>
+  <link rel="stylesheet" href="style.css"/>
+</head>
+<body>
+  <header>
+    <nav>
+      <ul class="navbar">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="education.html">Education</a></li>
+        <li><a href="skills.html">Skills</a></li>
+        <li><a href="projects.html">Projects</a></li>
+        <li><a href="certifications.html">Certifications</a></li>
+        <li><a href="resume.html" class="active">Resume</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+      <button class="mode-toggle" onclick="toggleMode()">🌙</button>
+    </nav>
+  </header>
+
+  <main class="home-content">
+    <h1>Resume</h1>
+    <p>You can download my latest resume as a PDF document below:</p>
+    <p>
+      <a href="C:\Users\pavan\Downloads\pavan_portfolio\resume.pdf" class="resume-download" download>Download Resume</a>
+    </p>
+    <iframe src="C:\Users\pavan\Downloads\pavan_portfolio\resume.pdf" width="100%" height="600px" style="margin-top:24px;border:1px solid #ccc;"></iframe>
+  </main>
+
+  <footer>
+    <p>&copy; 2025 Pavan Kasala. All rights reserved.</p>
+  </footer>
+  <script>
+    function toggleMode() {
+      document.body.classList.toggle("dark");
+    }
+  </script>
+</body>
+</html>
